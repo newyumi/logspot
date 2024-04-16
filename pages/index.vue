@@ -4,10 +4,8 @@
     <!-- // Remove this once you clone the template -->
     <github />
     <!-- // Remove this once you clone the template -->
-    <section
-      class="relative mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 overflow-hidden"
-    >
-      <post v-for="post in data" :content="post" />
+    <section class="relative mx-auto max-w-5xl px-4 sm:px-6 sm:py-1 lg:px-8 overflow-hidden">
+      <post v-for="post in data" :key="post.date" :content="post" />
     </section>
   </main>
 </template>
@@ -33,7 +31,5 @@ useHead({
     },
   ],
 });
-const { data } = await useAsyncData("feed", () =>
-  queryContent("/posts").find()
-);
+const { data } = await useAsyncData("feed", () => queryContent("/posts").find());
 </script>

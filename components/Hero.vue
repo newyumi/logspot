@@ -1,24 +1,15 @@
 <template>
   <header class="py-12 px-4 sm:px-6 lg:px-8">
-    <div class="relative mx-auto max-w-[37.5rem] pt-20 text-center pb-20">
+    <div class="relative mx-auto max-w-[44.5rem] pt-20 text-center pb-20">
       <div class="flex items-center justify-center space-x-3">
         <img loading="lazy" src="/logo.png" alt="Logspot" class="h-20 w-20" />
-        <h1
-          class="text-4xl font-extrabold tracking-tight text-slate-700 sm:text-5xl"
-        >
-          logspot
-        </h1>
+        <h1 class="text-2xl font-extrabold tracking-tight text-slate-700 sm:text-5xl">FE skill interview Q&A</h1>
       </div>
       <p class="mt-4 text-base leading-7 text-slate-600">
-        Logspot is an open source change log template made with Nuxt, Vue, and
-        Tailwindcss. Subscribe to our newsletter to get the latest updates or
+        <span class="text-red-400">I use Logspot,</span>
+        which is an open source change log template made with Nuxt, Vue, and Tailwindcss. Subscribe to our newsletter to get the latest updates or
         follow us on
-        <a
-          class="text-primary underline"
-          href="https://twitter.com/fayazara"
-          target="_blank"
-          >twitter</a
-        >.
+        <a class="text-primary underline" href="https://twitter.com/fayazara" target="_blank">twitter</a>.
       </p>
     </div>
   </header>
