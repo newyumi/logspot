@@ -36,6 +36,6 @@ const props = defineProps({
   @apply relative pt-2 pl-7 md:w-3/4 md:pt-0 md:pl-12 pb-16;
 }
 .document {
-  @apply max-w-none prose-h3:mb-4 prose-h3:text-base prose-h3:leading-6 prose-sm prose prose-pre:text-base prose-slate prose-a:font-semibold prose-a:text-primary hover:prose-a:text-sky-600;
+  @apply max-w-none prose-h3:mb-4 prose-h3:text-base prose-h3:leading-6 prose-sm prose prose-pre:text-base prose-slate prose-a:font-semibold prose-a:text-primary hover:prose-a:text-sky-600 prose-code:text-sm prose-code:text-blue-800;
 }
 </style>
